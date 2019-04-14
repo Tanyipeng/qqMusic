@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>QQ Music</title>
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+  <div class="wrapper hide">
+    <section class="top">
+      <!-- 专辑图 -->
+      <div class="album-wrapper">
+        <div class="album-img">
+          <img src="" alt="">
+        </div>
+      </div>
+      <!-- 歌曲信息 -->
+      <div class="text-wrapper">
+        <p class="song-name"></p>
+        <p class="singer-name"></p>
+        <p class="album-name"></p>
+      </div>
+      <!-- 进度 -->
+      <div class="progress">
+        <div class="start-time"></div>
+        <div class="time-progress">
+          <div class="time-progress-line"></div>
+          <div class="time-progress-line-spot">
+            <div class="spot"></div>
+          </div>
+        </div>
+        <div class="end-time"></div>
+      </div>
+    </section>
+
+    <footer class="bottom">
+      <!-- 喜爱 -->
+      <div class="favorite"></div>
+      <!-- 上一首 -->
+      <div class="prev"></div>
+      <!-- 播放/暂停 -->
+      <div class="play"></div>
+      <!-- 下一首 -->
+      <div class="next"></div>
+      <!-- 歌曲列表 -->
+      <div class="song-list"></div>
+    </footer>
+
+    <div class="pop">
+      <div class="close">关闭</div>
+    </div>
+    <div class="mask"></div>
+  </div>
+
+  <script src="../js/zepto.min.js"></script>
+  <script src="../js/gaussBlur.js"></script>
+  <script src="../js/render.js"></script>
+  <script src="../js/audio.js"></script>
+  <script src="../js/bindEvent.js"></script>
+  <script src="../js/pop.js"></script>
+  <script src="../js/index.js"></script>
+</body>
+</html>
